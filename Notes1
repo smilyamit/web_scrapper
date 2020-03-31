@@ -1,0 +1,24 @@
+#1 REST API (Representational State Transfer API)
+
+-API is basically a set of functions and procedures that allow one application to access the feature of other application
+-REST is an architectural style for networked applications on the web. It is limited to client-server based applications
+
+#2 Diff bw Rest API and SOAP API
+-REST API: REST is an abstraction of the structure and behavior of the World Wide Web. The goal of REST is to create an
+ architectural style that better represents the requirements of the modern web
+ REST API has no has no official standard at all because it is an architectural style
+ 
+-SOAP API: SOAP API , on the other hand, has an official standard because it is a protocol. REST APIs uses multiple standards
+ like HTTP, JSON, URL, and XML while SOAP APIs is largely based on HTTP and XML
+ 
+ 
+ #3 if site block web scrapper, place useragent as chrome, opera etc so that website will think request is coming from some web browser
+  not from any api or program
+  
+ #4 to automatic update database abt user recent reviews
+ - just use timestamp threshold and put a condition to to refresh it after a cetrain time (eg 3 days)
+ 
+ #5 what if some web pages ask me to sign in before open (for compulsory)
+ - just use Post command code , so that sign in requirement will be given automaticallly from our Web API 
+ - Flask-RESTful is an extension for Flask that adds support for quickly building REST APIs
+
