@@ -21,4 +21,23 @@
  #5 what if some web pages ask me to sign in before open (for compulsory)
  - just use Post command code , so that sign in requirement will be given automaticallly from our Web API 
  - Flask-RESTful is an extension for Flask that adds support for quickly building REST APIs
+ 
+   Flask<django<falcon
+  
+ #6
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 
