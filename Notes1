@@ -25,6 +25,41 @@
    Flask<django<falcon
   
  #6
+ What is BeautifulSoup used for?
+ - BeautifulSoup is a Python library for parsing HTML and XML documents. It is often used for web scraping
+ What does BeautifulSoup return?
+ - BeautifulSoup transforms a complex HTML document into a complex tree of Python objects,
+   such as tag, navigable string, or comment.
+ *Parsing
+ =>Parsing means dividing anything into smallest components to understand from the core. In programming parsing means
+   breaking a program elements into their smallest units to create some knowledge for a compiler to understand the syntax 
+
+
+#7flask App: Web Development Framework
+- Framework means collections of libraries (Methods/ functions)
+- Web Devlopment means internet
+*Render
+- Software that renders HTML pages (Web pages). It turns the HTML layout tags in the page into the appropriate commands for
+  the operating system
+  -whatever name is given in render templates braces () that name is searched inside template folder
+#8
+tr- table row, th- table heading, td- table data
+
+#9 Application flow architecture
+1. load index.html (as homepage)
+2. user searches with keyboards n press submit
+3. (Now control will come to) python app - list of reviews
+4. send reviews to results.html (using MongoDb)
+5. user will see the reviews in result.html 
+
+*** Note all html files are for views and flask_app.py is for flow of control (MVC architecture - model, view control)
+*** Note MVC is a good way to achieve this goal in web application architecture. By separating controllers (handling requests
+and mapping to business logic), models (implementing business logic), and views (presenting and formatting output), 
+it's easier to change code in each of these layers
+
+*** Whatever fun we callled inside route it will be get called eg index 
+
+
  
   
   
