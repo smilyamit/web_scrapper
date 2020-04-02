@@ -59,6 +59,9 @@ it's easier to change code in each of these layers
 
 *** Whatever fun we callled inside route it will be get called eg index 
 
+#10
+-requirements.txt is a industry standard, so by using command in terminal of pycharm (..) we can give inststructions to
+ heroku cloud to install all required libraries related to  neeed of that appp environment.
 
  
   
